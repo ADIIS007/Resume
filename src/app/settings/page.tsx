@@ -37,45 +37,49 @@ function SettingsPage() {
                     directly linked to git and this makes the process soo
                     simpler that the problem is simplified . . .
                   </p>
+                  <br/>
                   <div className='w-full h-px bg-zinc-800' />
                   <div className='text-center'>
-                  <h3 className='py-2 text-2xl'>My Developer Profiles</h3>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Github
-                  </button>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Leetcode
-                  </button>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Discord
-                  </button>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Twitter
-                  </button>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Linkdin
-                  </button>
-                  <button
-                    type='button'
-                    className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
-                  >
-                    Kaggle
-                  </button>
+                    <h3 className='p-5 text-2xl'>My Developer Profiles</h3>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      <Image
+                        src='/github.svg'
+                        width={10}
+                        height={10} alt={'GitHub'}                      />
+                    </button>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      Leetcode
+                    </button>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      Discord
+                    </button>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      Twitter
+                    </button>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      Linkdin
+                    </button>
+                    <button
+                      type='button'
+                      className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
+                    >
+                      Kaggle
+                    </button>
                   </div>
                 </div>
               </div>
@@ -84,9 +88,10 @@ function SettingsPage() {
               <div className='w-full h-px bg-zinc-800' />
 
               <div className='text-center'>
-                <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display'>Tech Stacks profficient In</h1>
+                <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display p-3'>
+                  Tech Stacks profficient In
+                </h1>
               </div>
-
             </article>
           </Card>
         </div>
