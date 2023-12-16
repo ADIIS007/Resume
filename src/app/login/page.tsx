@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
 import Particles from '../../components/public/particles';
-import { Card, Button } from '@rewind-ui/core';
 
 function LoginPage() {
   return (
