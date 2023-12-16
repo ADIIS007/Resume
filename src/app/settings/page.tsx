@@ -1,6 +1,7 @@
 import Particles from '../../components/public/particles';
 import { Card } from '../../components/cards/card';
 import Image from 'next/image';
+import AnimatedLogo from '../../components/cards/logoAnimation';
 
 function SettingsPage() {
   return (
@@ -37,7 +38,7 @@ function SettingsPage() {
                     directly linked to git and this makes the process soo
                     simpler that the problem is simplified . . .
                   </p>
-                  <br/>
+                  <br />
                   <div className='w-full h-px bg-zinc-800' />
                   <div className='text-center'>
                     <h3 className='p-5 text-2xl'>My Developer Profiles</h3>
@@ -46,39 +47,66 @@ function SettingsPage() {
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
                       <Image
-                        src='/github.svg'
-                        width={10}
-                        height={10} alt={'GitHub'}                      />
+                        src='social/git.svg'
+                        width={35}
+                        height={35}
+                        alt={'GitHub'}
+                      />
                     </button>
                     <button
                       type='button'
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
-                      Leetcode
+                      <Image
+                        src='social/leetcode.svg'
+                        width={35}
+                        height={35}
+                        alt={'Leetcode'}
+                      />
                     </button>
                     <button
                       type='button'
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
-                      Discord
+                      <Image
+                        src='social/discord.svg'
+                        width={35}
+                        height={35}
+                        alt={'Discord'}
+                      />
                     </button>
                     <button
                       type='button'
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
-                      Twitter
+                      <Image
+                        src='social/twitter.svg'
+                        width={35}
+                        height={35}
+                        alt={'Twitter'}
+                      />
                     </button>
                     <button
                       type='button'
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
-                      Linkdin
+                      <Image
+                        src='social/linkedin.svg'
+                        width={35}
+                        height={35}
+                        alt={'Linkedin'}
+                      />
                     </button>
                     <button
                       type='button'
                       className='outline-none border border-gray-400 rounded px-4 py-2 mx-2'
                     >
-                      Kaggle
+                      <Image
+                        src='social/kaggle.svg'
+                        width={35}
+                        height={35}
+                        alt={'Kaggle'}
+                      />
                     </button>
                   </div>
                 </div>
@@ -91,6 +119,60 @@ function SettingsPage() {
                 <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display p-3'>
                   Tech Stacks profficient In
                 </h1>
+                <div className='grid grid-cols-2 gap-4 p-3'>
+                  <div className='grid grid-cols-4 gap-2'>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'Java'}
+                        imgSrc={'techstack/java.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'Flutter'}
+                        imgSrc={'techstack/flutter.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'TypeScript'}
+                        imgSrc={'techstack/typescript.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'Node.js'}
+                        imgSrc={'techstack/nodejs.svg'}
+                      />
+                    </div>
+                  </div>
+                  <div className='grid grid-cols-4 gap-2'>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'nodejs'}
+                        imgSrc={'techstack/Angular.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'Spring Boot'}
+                        imgSrc={'techstack/springboot.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'React'}
+                        imgSrc={'techstack/react.svg'}
+                      />
+                    </div>
+                    <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
+                      <AnimatedLogo
+                        imgName={'Android'}
+                        imgSrc={'techstack/android.svg'}
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </article>
           </Card>
