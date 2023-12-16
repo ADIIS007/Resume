@@ -29,7 +29,7 @@ function SettingsPage() {
                     id='featured-post'
                     className='mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display'
                   >
-                    Hi! I'm ADIIS007
+                    Hi! I&apos;m ADIIS007
                   </h2>
                   <p className='mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
                     This is a great project I have built of Online resume
