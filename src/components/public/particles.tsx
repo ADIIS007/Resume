@@ -83,8 +83,8 @@ export default function Particles({
 	const resizeCanvas = () => {
 		if (canvasContainerRef.current && canvasRef.current && context.current) {
 			circles.current.length = 0;
-			canvasSize.current.w = canvasContainerRef.current.offsetWidth;
-			canvasSize.current.h = canvasContainerRef.current.offsetHeight;
+			canvasSize.current.w = window.innerWidth;
+			canvasSize.current.h = window.innerHeight;
 			canvasRef.current.width = canvasSize.current.w * dpr;
 			canvasRef.current.height = canvasSize.current.h * dpr;
 			canvasRef.current.style.width = `${canvasSize.current.w}px`;

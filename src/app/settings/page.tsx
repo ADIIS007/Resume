@@ -7,8 +7,8 @@ function SettingsPage() {
   return (
     <div className='p-8'>
       <Particles
-        className='absolute inset-0 -z-10 animate-fade-in'
-        quantity={100}
+        className='absolute inset-0 -z-10 animate-fade-in min-h-full'
+        quantity={1000}
       />
       <div className='relative pb-16 '>
         <div className='grid grid-cols-1 gap-8 mx-auto'>
@@ -149,8 +149,8 @@ function SettingsPage() {
                   <div className='grid grid-cols-4 gap-2'>
                     <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
                       <AnimatedLogo
-                        imgName={'nodejs'}
-                        imgSrc={'techstack/Angular.svg'}
+                        imgName={'Angular'}
+                        imgSrc={'techstack/angular.svg'}
                       />
                     </div>
                     <div className='outline-none border border-gray-400 rounded px-4 py-2 mx-2 w-55 h-55 place-items-center'>
@@ -177,6 +177,84 @@ function SettingsPage() {
             </article>
           </Card>
         </div>
+      </div>
+
+      <div className='grid grid-cols-1 gap-8 mx-auto pb-16'>
+        <Card>
+          <article className='relative w-full h-full p-4 md:p-8'>
+            <div className='justify-center text-center'>
+              <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display p-4'>
+                Acadamic Life
+              </h1>
+              <br />
+              <div className='grid grid-cols-1 gap-4'>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>Year</div>
+                  <div>Syllabus</div>
+                  <div>Specialization</div>
+                  <div>Grade</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2024</div>
+                  <div>JNTU-H</div>
+                  <div>Computer science</div>
+                  <div>Btech</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2020</div>
+                  <div>CBSE</div>
+                  <div>MPC-CS</div>
+                  <div>XII</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2018</div>
+                  <div>CBSE</div>
+                  <div>N/A</div>
+                  <div>X</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </Card>
+      </div>
+
+      <div className='grid grid-cols-1 gap-8 mx-auto pb-16'>
+        <Card>
+          <article className='relative w-full h-full p-4 md:p-8'>
+            <div className='justify-center text-center'>
+              <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display p-4'>
+                Acadamic Life
+              </h1>
+              <br />
+              <div className='grid grid-cols-1 gap-4'>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>Year</div>
+                  <div>Syllabus</div>
+                  <div>Specialization</div>
+                  <div>Grade</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2024</div>
+                  <div>JNTU-H</div>
+                  <div>Computer science</div>
+                  <div>Btech</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2020</div>
+                  <div>CBSE</div>
+                  <div>MPC-CS</div>
+                  <div>XII</div>
+                </div>
+                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
+                  <div>2018</div>
+                  <div>CBSE</div>
+                  <div>N/A</div>
+                  <div>X</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </Card>
       </div>
     </div>
   );
