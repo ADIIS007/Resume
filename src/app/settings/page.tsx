@@ -7,7 +7,7 @@ function SettingsPage() {
   return (
     <div className='p-8'>
       <Particles
-        className='absolute inset-0 -z-10 animate-fade-in min-h-full'
+        className='fixed inset-0 -z-10 animate-fade-in min-h-full'
         quantity={1000}
       />
       <div className='relative pb-16 '>
@@ -193,24 +193,32 @@ function SettingsPage() {
                   <div>Syllabus</div>
                   <div>Specialization</div>
                   <div>Grade</div>
+                  <div>Marks</div>
+                  <div>University</div>
                 </div>
                 <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
                   <div>2024</div>
                   <div>JNTU-H</div>
                   <div>Computer science</div>
                   <div>Btech</div>
+                  <div>8.42</div>
+                  <div>CVR</div>
                 </div>
                 <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
                   <div>2020</div>
                   <div>CBSE</div>
                   <div>MPC-CS</div>
                   <div>XII</div>
+                  <div>89%</div>
+                  <div>KV1U</div>
                 </div>
                 <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
                   <div>2018</div>
                   <div>CBSE</div>
                   <div>N/A</div>
                   <div>X</div>
+                  <div>72%</div>
+                  <div>KV1U</div>
                 </div>
               </div>
             </div>
@@ -223,35 +231,10 @@ function SettingsPage() {
           <article className='relative w-full h-full p-4 md:p-8'>
             <div className='justify-center text-center'>
               <h1 className='text-1xl text-zinc-100 group-hover:text-white sm:text-4xl font-display p-4'>
-                Acadamic Life
+                Projects Overview
               </h1>
               <br />
-              <div className='grid grid-cols-1 gap-4'>
-                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
-                  <div>Year</div>
-                  <div>Syllabus</div>
-                  <div>Specialization</div>
-                  <div>Grade</div>
-                </div>
-                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
-                  <div>2024</div>
-                  <div>JNTU-H</div>
-                  <div>Computer science</div>
-                  <div>Btech</div>
-                </div>
-                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
-                  <div>2020</div>
-                  <div>CBSE</div>
-                  <div>MPC-CS</div>
-                  <div>XII</div>
-                </div>
-                <div className='grid grid-rows-1 grid-flow-col gap-4 outline-none border border-gray-400 rounded p-3'>
-                  <div>2018</div>
-                  <div>CBSE</div>
-                  <div>N/A</div>
-                  <div>X</div>
-                </div>
-              </div>
+              
             </div>
           </article>
         </Card>
